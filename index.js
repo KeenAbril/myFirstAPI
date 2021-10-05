@@ -8,6 +8,6 @@ si no que se ejecute cuando entre en al ruta */
 
 app.get('/', myController.helloWorld);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('My first API tunning!');
 })
