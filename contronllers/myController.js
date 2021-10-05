@@ -1,3 +1,4 @@
+//request, response
 module.exports.helloWorld = (req, res) => {
     const responseObj = {msg: 'Hello world!'}
     const responseStatus = 200;
